@@ -1,0 +1,5 @@
+var obj = JSON.parse($response.body);
+obj.personalpackage_set.["expiry_date"]="22-02-2099 03:15";
+obj.expiry_date="02/22/2099 03:15";
+$done({body: JSON.stringify(obj)});
+
